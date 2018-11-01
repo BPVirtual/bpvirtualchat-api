@@ -1,7 +1,7 @@
-import {BpvirtualchatApplication} from './application';
-import {ApplicationConfig} from '@loopback/core';
+import { BpvirtualchatApplication } from './application';
+import { ApplicationConfig } from '@loopback/core';
 
-export {BpvirtualchatApplication};
+export { BpvirtualchatApplication };
 
 export async function main(options: ApplicationConfig = {}) {
   const app = new BpvirtualchatApplication(options);

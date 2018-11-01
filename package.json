@@ -45,16 +45,19 @@
   ],
   "dependencies": {
     "@loopback/boot": "^1.0.2",
+    "@loopback/build": "^1.0.0",
     "@loopback/context": "^1.0.0",
     "@loopback/core": "^1.0.0",
     "@loopback/openapi-v3": "^1.0.2",
     "@loopback/repository": "^1.0.2",
     "@loopback/rest": "^1.1.0",
     "@loopback/service-proxy": "^1.0.0",
-    "loopback-connector-mongodb": "^3.9.1",
-    "@loopback/build": "^1.0.0",
     "@loopback/testlab": "^1.0.0",
-    "@types/node": "^10.11.2"
+    "@types/node": "^10.11.2",
+    "gridfs-stream": "^1.1.1",
+    "loopback-connector-mongodb": "^3.9.1",
+    "multer": "^1.4.1",
+    "multer-gridfs-storage": "^3.2.3"
   },
   "devDependencies": {}
 }
